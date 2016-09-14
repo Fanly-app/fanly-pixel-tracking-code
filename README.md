@@ -1,4 +1,7 @@
-![Alt](/logo.png "Fanly")
+# ![Alt](fanly-word-blue.png "Fanly") #
+## Pixel Tracking Code ##
+
+
 
 Fanly pixel code is made up of two main elements:
 
