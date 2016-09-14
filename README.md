@@ -11,7 +11,7 @@ Fanly pixel code is made up of two main elements:
 
 The Fanly pixel code tracks activity and should be installed on every page of your website.
 
-1. Paste the Fanly pixel code between the `<head>` and `</head>` tags of your web page. You may already have other existing code between the head tags, so just place the pixel code underneath that, but above </head>.
+1. Paste the Fanly pixel code between the `<head>` and `</head>` tags of your web page. You may already have other existing code between the head tags, so just place the pixel code underneath that, but above `</head>`.
 
 2. Change **_Client-ID_** code to the one provided by your Account Manager.
 
