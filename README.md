@@ -20,9 +20,9 @@ The Fanly pixel code tracks activity and should be installed on every page of yo
 <!-- Fanly Pixel Code -->
 <script>
 
-!function(f,a,n,l,y){if(f.fanly)return;f.fanly = {init(k){this['_cid']=k;}};f.fanly.loaded=!0;
-f.fanly.version='1.0';y=a.createElement('script');y.async=!0;y.src=n;l=a.getElementsByTagName('script')[0];
-l.parentNode.insertBefore(y,l);}(window,document,'https://engage.serve.fans/cheers.js');
+!function(f,a,n,l,y){if(f.fanly)return;f.fanly = {w:f,init(k){this['_cid']=k;}};f.fanly.loaded=!0;f.fanly.version='1.0';
+y=a.createElement('script');y.async=!0;y.src=n+'.'+f.fanly.version+'.js?'+new Date().toISOString().slice(0,10).replace(/-/g,"");
+l=a.getElementsByTagName('script')[0];l.parentNode.insertBefore(y,l);}(window,document,'http://engage.serve.fans/cheers');
 
 fanly.init("Client-ID"); 
 
