@@ -28,7 +28,7 @@ fanly.init("Client-ID");
 
 </script>
 <noscript>
-    <img height="1" width="1" style="display:none" src="https://serve.fans/pv1/engage.gif?clientId=Client-ID"/>
+    <img height="1" width="1" style="display:none" src="https://serve.fans/cheers/beacon.gif?clientId=Client-ID"/>
 </noscript>
 <!-- End Fanly Pixel Code -->
 ~~~~
